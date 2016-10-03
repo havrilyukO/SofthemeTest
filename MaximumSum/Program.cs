@@ -13,6 +13,7 @@ namespace MaximumSum
         public static void Main(string[] args)
         {
             string pathA = "simple_triangle.txt";
+
             string pathB = "triangle.txt";
 
             Console.WriteLine("Triangle from file {0}, maximal sum: {1} ", pathA, MaximalSum(ReadFromFile(pathA)));
